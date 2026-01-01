@@ -15,7 +15,7 @@ Le projet couvre l’ensemble du pipeline classique en Machine Learning : charge
 ```text
 .
 ├── graduation_dataset.csv      # Dataset (à placer à la racine)
-├── main.py                     # Script principal (ou nom équivalent)
+├── ia.py                     # Script principal (ou nom équivalent)
 ├── requirements.txt            # Dépendances Python
 ├── .gitignore                  # Fichiers ignorés par Git
 ├── confusion_matrix.png        # Matrice de confusion générée
@@ -43,8 +43,8 @@ python --version
 ### 1️⃣ Cloner le dépôt
 
 ```bash
-git clone https://github.com/votre-username/votre-repo.git
-cd votre-repo
+git clone https://github.com/bessaoudi-arch/machine-learning
+cd machine-learning
 ```
 
 ### 2️⃣ Créer un environnement virtuel (recommandé)
@@ -60,23 +60,6 @@ venv\Scripts\activate      # Windows
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-## 📊 Dataset
-
-Le projet utilise le **Student Graduation Dataset** disponible sur Kaggle.
-
-- Téléchargez le dataset depuis Kaggle
-- Renommez-le en :
-
-```text
-graduation_dataset.csv
-```
-
-- Placez-le **à la racine du projet**
-
-Le script vérifiera automatiquement la présence du fichier et lèvera une erreur si le dataset est introuvable.
 
 ---
 
@@ -130,7 +113,7 @@ Deux graphiques sont générés automatiquement :
 Lancez simplement le script principal :
 
 ```bash
-python main.py
+python ia.py
 ```
 
 À la fin de l’exécution, les fichiers suivants seront générés :
@@ -162,18 +145,3 @@ Ces résultats permettent de vérifier la qualité de l’apprentissage du modè
 - Scikit-learn
 
 ---
-
-## 📌 Remarques
-
-- Le projet est conçu à des fins **pédagogiques**
-- Il peut être facilement étendu (tuning des hyperparamètres, autres modèles, validation croisée avancée)
-
----
-
-## 👨‍🎓 Auteur
-
-Projet réalisé dans le cadre d’un **mini projet Machine Learning**.
-
----
-
-✨ Bon apprentissage et bonne exploration du Ma
